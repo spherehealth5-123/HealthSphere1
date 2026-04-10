@@ -1,0 +1,99 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main
+{
+
+    width: 100%;
+    background-position: center;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("imgpic.jpeg");
+    background-size: cover;
+
+    height: 109vh;
+    text-align: center;
+    position: relative;
+}
+.main1
+{
+    width: 500px;
+    height: 600px;
+    background-image: linear-gradient(to bottom,skyblue,50%, blue,darkblue);
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 30px;
+    border-radius: 20px;
+
+}
+.text
+{
+    position: absolute;
+    color: white;
+    margin-left: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+.text1
+{
+    width:400px;
+    height: 30px;
+    padding: 2%;
+    position: absolute;
+    background-color:white;
+    border-radius: 10px;
+    color: blue;
+    margin-left: 50px;
+    margin-top: 130px;
+    
+}
+.text1 a
+{
+    text-decoration: none;
+}
+
+.text1 a:hover
+{
+    color: blue;
+}
+.text2
+{
+    width:400px;
+    height: 30px;
+    padding: 2%;
+    position: absolute;
+    background-color:white;
+    border-radius: 10px;
+    color: blue;
+    margin-left: 50px;
+    margin-top:265px;
+
+
+
+}
+.text2 a
+{
+    text-decoration: none;
+}
+
+.text a:hover
+{
+    color: blue;
+}
+.text3
+{
+    width:400px;
+    height: 30px;
+    padding: 2%;
+    position: absolute;
+    background-color:white;
+    border-radius: 10px;
+    color: blue;
+    margin-left: 50px;
+    margin-top: 400px;
+
+
+}

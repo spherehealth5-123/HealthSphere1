@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dynamic Healthcare Dashboard</title>
+    <link rel="stylesheet" href="css/adminDashboard.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <div class="dashboard-container">
+        <aside class="sidebar">
+            <div class="image">
+            <div class="logoimg"></div>
+               <h3 class="logo"></h3>
+               <h7 class="logo1"></h7>
+           </div>
+            <nav class="sidebar-nav">
+                <ul>
+                    <li><a href="#" class="sidebar-link active" data-section="dashboard"><i class="fas fa-home" style="color: black;"></i> Dashboard</a></li>
+                    <li><a href="php/view_invoice.php" class="sidebar-link" data-section="invoices"><i class="fas fa-file-invoice"></i> Invoice Management</a></li>
+                    <li><a href="php/view_appointment.php" class="sidebar-link" data-section="appointments"><i class="fas fa-calendar-alt"></i> Appointment Management</a></li>
+                    <li><a href="php/view_reports.php" class="sidebar-link" data-section="reports"><i class="fas fa-notes-medical"></i> Patient Reports</a></li>
+                    <li><a href="php/view_donation.php" class="sidebar-link" data-section="donations"><i class="fas fa-hand-holding-usd"></i> Donations</a></li>
+                    <li><a href="inventory.html" class="sidebar-link" data-section="inventory"><i class="fas fa-box-open"></i> Inventory</a></li>
+                    <li><a href="php/view_applications.php" class="sidebar-link" data-section="staff"><i class="fas fa-user-md"></i> Staff Management</a></li>
+                    <li><a href="php/reviews.php" class="sidebar-link" data-section="reviews"><i class="fas fa-star"></i> Reviews</a></li>
+                    <li><a href="logoutadmin.php" class="sidebar-link"><i class="fas fa-sign-out-alt"></i> Log Out</a></li>
+                </ul>
+            </nav>
+        </aside>
+
+        <main class="main-content">
+            <header class="header">
+                <h1 id="page-title">Dashboard Overview</h1>
+                <div class="user-profile">
+                    <span>Welcome, Admin</span>
+                    <i class="fas fa-user-circle"></i>
+                </div>
+            </header>
+
+            <div id="dashboard" class="content-section active">
+                <div class="content-cards">
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-users"></i></div>
+                        <div class="card-info">
+                            <h3>Total Patients</h3>
+                            <p>1,250</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-calendar-check"></i></div>
+                        <div class="card-info">
+                            <h3>Appointments Today</h3>
+                            <p>45</p>
+                        </div>
+                    </div>
+                    <div class="card">
+                        <div class="card-icon"><i class="fas fa-chart-line"></i></div>
+                        <div class="card-info">
+                            <h3>Revenue (This Month)</h3>
+                            <p>$25,000</p>
+                        </div>
+                    </div>
+                </div>
+            <div class="detailed-section">
+  <h2>Overview</h2>
+  <div class="charts-container">
+      <!-- Patients Chart -->
+      <canvas id="patientChart"></canvas>
+
+      <!-- Appointments Chart -->
+      <canvas id="appointmentChart"></canvas>
+
+      <!-- Revenue Chart -->
+      <canvas id="revenueChart"></canvas>
+  </div>
+
+  <h2 class="mt-4">Recent Activity</h2>
+  <ul class="activity-list">
+      <li><i class="fas fa-user-plus text-success"></i> New patient <b>Sarah Ahmed</b> registered</li>
+      <li><i class="fas fa-calendar-check text-primary"></i> Appointment booked with <b>Dr. Ali</b></li>
+      <li><i class="fas fa-file-invoice-dollar text-warning"></i> Invoice #1023 generated</li>
+      <li><i class="fas fa-star text-info"></i> Patient <b>Fatima Noor</b> submitted a review</li>
+  </ul>
+</div>
+
+
+            </div>
+
+            <div id="invoices" class="content-section">
+                <h2>Invoice Management</h2>
+                <div class="detailed-section">
+                    <p>This section is for generating and managing invoices.</p>
+                    <button class="action-button">Generate New Invoice</button>
+                    </div>
+            </div>
+
+            <div id="appointments" class="content-section">
+                <h2>Appointment Management</h2>
+                <div class="detailed-section">
+                    <p>This section is for booking and canceling appointments.</p>
+                    <button class="action-button">Book New Appointment</button>
+                    </div>
+            </div>
+            
+            <div id="reports" class="content-section">
+                <h2>Patient Reports</h2>
+                <div class="detailed-section">
+                    <p>This section allows you to upload and view patient reports.</p>
+                    <button class="action-button">Upload Report</button>
+                    </div>
+            </div>
+
+            <div id="donations" class="content-section">
+                <h2>Donations</h2>
+                <div class="detailed-section">
+                    <p>This section tracks donations and fundraising campaigns.</p>
+                    </div>
+            </div>
+
+            <div id="inventory" class="content-section">
+                <h2>Inventory</h2>
+                <div class="detailed-section">
+                    <p>This section is for managing medical inventory.</p>
+                    <button class="action-button">Add New Item</button>
+                    </div>
+            </div>
+
+            <div id="staff" class="content-section">
+                <h2>Staff Management</h2>
+                <div class="detailed-section">
+                    <p>This section is for hiring and managing doctors and staff.</p>
+                    <button class="action-button">Hire New Doctor</button>
+                    </div>
+            </div>
+
+            <div id="reviews" class="content-section">
+                <h2>Reviews</h2>
+                <div class="detailed-section">
+                    <p>This section is for adding and deleting patient reviews.</p>
+                    <button class="action-button">Add Review</button>
+                    </div>
+            </div>
+
+        </main>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.0/dist/chart.umd.min.js"></script>
+<script src="adminDashboard.js"></script>
+
+</body>
+</html>
