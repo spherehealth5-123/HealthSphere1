@@ -1,0 +1,72 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/doctorPanel.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="main">
+        <div class="title">Application Form </div>
+        <form action="php/connection.php" method="post">
+        <div class="form">
+            <div class="inputf">
+                <label>Id:</label>
+                <input type="number" class="input" name="id" required>
+            </div>
+            <div class="inputf">
+                <label>Name:</label>
+                <input type="text" class="input" name="name" required>
+            </div>
+            <div class="inputf">
+                <label>Age:</label>
+                <input type="text" class="input" name="age" required>
+            </div>
+            <div class="inputf">
+                <label>Email:</label>
+                <input type="email" class="input" name="email" required>
+            </div>
+            <div class="inputf">
+               <label>Gender:</label>
+               <select class="box" name="gender" required>
+               <option value="">Select:</option>
+               <option value="male">Male</option>
+               <option value="female">Female</option>
+               <option value="other">Others</option>
+            </select>
+            </div>
+                <div class="inputf">
+                <label>Address:</label>
+                <textarea class="textarea" name="address" required></textarea>
+            </div>
+            <div class="inputf">
+                <label>Number:</label>
+                <input type="text" class="input" name="number" required>
+            </div>
+            <div class="inputf">
+                <label>Qualification:</label>
+                <input type="text" class="input" name="qualification" required>
+            </div>
+            <div class="inputf">
+                <label>Specialization:</label>
+                <input type="text" class="input" name="specialization" required>
+            </div>
+            <div class="inputf">
+                <label>Experience:</label>
+                <input type="text" class="input" name="experience" required>
+            </div>
+            <div class="inputf">
+                <label>CV:</label>
+                <input type="text" class="input" name="cv" required>
+            </div>
+            <div class="inputf">
+                <input type="submit" class="btn" placeholder="Submit" value="Register" name="register" required>
+            </div>
+        </div>
+    </form>
+    </div>
+</body>
+</html>

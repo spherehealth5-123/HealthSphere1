@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Hospital Hub — Emergency Services</title>
+
+  <!-- Fonts -->
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet" />
+
+  <!-- CSS -->
+  <link rel="stylesheet" href="css/emergency.css" />
+</head>
+<body>
+  <!-- Sticky emergency hotline -->
+  <div class="hotline" role="banner" aria-label="Emergency hotline">
+    <div class="hotline__wrap">
+      <span class="hotline__pulse" aria-hidden="true"></span>
+      24/7 Emergency Hotline:
+      <a href="tel:+9203001234567" class="hotline__number">+92 0300 123 4567</a>
+    </div>
+  </div>
+
+<div class="main">
+       <div class="navbar">
+           <div class="image">
+            <div class="logoimg"></div>
+               <h3 class="logo"></h3>
+               <h7 class="logo1"></h7>
+           </div>
+           <div class="menu">
+               <ul>
+                   <li><a href="hospital main.html">Home</a></li>
+                    <li><a href="contactus.html">ContactUs</a></li>
+                   <li><a href="aboutus.html">AboutUs</a></li>
+                   <li><a href="services.html">Services</a></li>
+                   <li><a href="newpatient.html">Appointments</a></li>
+         
+                </ul>
+           </div>
+          <div class="search">
+              <input class="srch" type="search" name="" placeholder="Type to text">
+              <a href="#"><button class="btn">Search</button></a>
+          </div>
+   </div> 
+   </div>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero__bg" role="img" aria-label="Emergency response team ready with ambulance"></div>
+    <div class="container hero__content">
+      <h1 class="hero__title">Emergency Care — Every Second Counts</h1>
+      <p class="hero__subtitle">
+        Rapid access to <b>Ambulance</b>&nbsp;,&nbsp;<b>Cardiac Emergency</b> &nbsp;&nbsp;and &nbsp;,&nbsp;<b>ICU</b>  staffed 24/7 by specialized teams with state-of-the-art equipment.
+      </p>
+      <div class="hero__actions">
+        <a href="tel:+9203001234567" class="btn btn--primary">Call Ambulance</a>
+      </div>
+      <ul class="hero__badges" aria-label="Key emergency highlights">
+        <li>Response &lt; 10 min (avg)</li>
+        <li>Board-certified specialists</li>
+        <li>Advanced life support</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Quick Stats -->
+  <section class="stats">
+    <div class="container stats__grid">
+      <div class="stat">
+        <div class="stat__icon" aria-hidden="true">🚑</div>
+        <div class="stat__value">15+</div>
+        <div class="stat__label">Ambulances</div>
+      </div>
+      <div class="stat">
+        <div class="stat__icon" aria-hidden="true">❤️</div>
+        <div class="stat__value">24/7</div>
+        <div class="stat__label">Cardiac Team</div>
+      </div>
+      <div class="stat">
+        <div class="stat__icon" aria-hidden="true">🏥</div>
+        <div class="stat__value">40</div>
+        <div class="stat__label">ICU Beds</div>
+      </div>
+      <div class="stat">
+        <div class="stat__icon" aria-hidden="true">⏱️</div>
+        <div class="stat__value">&lt;10m</div>
+        <div class="stat__label">Avg. Response</div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="services container">
+    <!-- Ambulance -->
+    <article class="card">
+      <div class="card__media">
+        <img src="ambulanc1.png" alt="Ambulance on standby" loading="lazy" />
+      </div>
+      <div class="card__body">
+        <h2 class="card__title">
+          <span class="emoji" aria-hidden="true">🚑</span>
+          Emergency Ambulance (ALS/BLS)
+        </h2>
+        <p class="card__text">
+          Advanced & Basic Life Support ambulances equipped with defibrillators, ventilators, and trained paramedics. GPS-dispatched units ensure the fastest route.
+        </p>
+        <ul class="card__list">
+          <li>Real-time GPS tracking</li>
+          <li>On-board cardiac monitoring</li>
+          <li>Trauma-ready equipment</li>
+        </ul>
+        <div class="card__actions">
+        </div>
+      </div>
+    </article>
+
+    <!-- Cardiac -->
+    <article class="card">
+      <div class="card__media">
+        <img src="heartemergency.jpg " alt="ECG monitor showing heart rhythm" loading="lazy" />
+      </div>
+      <div class="card__body">
+        <h2 class="card__title">
+          <span class="emoji" aria-hidden="true">❤️</span>
+          Heart Emergency (Cath Lab Ready)
+        </h2>
+        <p class="card__text">
+          Rapid triage for chest pain with on-arrival ECG, blood tests, and direct cath lab activation for STEMI. Door-to-balloon protocols optimized for speed.
+        </p>
+        <ul class="card__list">
+          <li>Continuous ECG monitoring</li>
+          <li>24/7 interventional cardiology</li>
+          <li>Thrombolysis & PCI pathways</li>
+        </ul>
+        <div class="card__actions">
+        </div>
+      </div>
+    </article>
+
+    <!-- ICU -->
+    <article class="card">
+      <div class="card__media">
+        <img src="icu.jpg" alt="Intensive Care Unit room" loading="lazy" />
+      </div>
+      <div class="card__body">
+        <h2 class="card__title">
+          <span class="emoji" aria-hidden="true">🧪</span>
+          Intensive Care Unit (ICU)
+        </h2>
+        <p class="card__text">
+          Multidisciplinary ICU with invasive monitoring, mechanical ventilation, and bedside ultrasound. Strict infection control and 1:1 nursing ratio in critical bays.
+        </p>
+        <ul class="card__list">
+          <li>Ventilator & dialysis support</li>
+          <li>Sepsis bundles & protocols</li>
+          <li>Family updates & counseling</li>
+        </ul>
+        <div class="card__actions">
+        </div>
+      </div>
+    </article>
+  </section>
+
+  <section class="callout">
+    <div class="container callout__inner">
+      <h3 class="callout__title">Not sure if it’s an emergency?</h3>
+      <p class="callout__text">
+        If you or someone around you has chest pain, severe breathing difficulty, uncontrolled bleeding, stroke symptoms, or trauma — call our emergency hotline immediately.
+      </p>
+      <a href="tel:+9203001234567" class="btn btn--xl btn--primary">Call +92 0300 123 4567 Now</a>
+    </div>
+  </section>
+
+ <div class="main6">
+        <div class="main7">
+         <div class="doctor"><a href="">Find a doctor</a></div>
+         <div class="explore"><a href="">Explore careers</a></div>
+         <div class="site"><a href="">About this site</a></div>
+         <div class="contact"><a href="">Contact Us</a></div>
+         <div class="locations"><a href="">Locations</a></div>
+        </div>
+        <div class="main8">
+            <div class="medicals"><a href="">Medical Professionals</a></div>
+            <div class="clinical"><a href="">Clinical Trials</a></div>
+            <div class="refer"><a href="">Refer a patient</a></div>
+            <div class="research"><a href="">Researchers</a></div>
+            <div class="labortries"><a href="">Laboratories</a></div>
+        </div>
+        <div class="main9">
+            <div class="appoin"><a href="">Appointments</a></div>
+            <div class="service"><a href="">Financial Services</a></div>
+            <div class="facebook"><a href="">Facebook</a></div>
+            <div class="twitter"><a href="">Twitter</a></div>
+            <div class="instagram"><a href="">Instagram</a></div>
+        </div>
+    </div>
+  <script>
+    // Set current year in footer
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    // Respect reduced motion for the pulse
+    const prefersReduced = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    if (prefersReduced) {
+      document.documentElement.classList.add('reduced-motion');
+    }
+  </script>
+</body>
+</html>
