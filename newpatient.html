@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+ <link rel="stylesheet" href="css/newpatient.css">
+ <title>Document</title>
+</head>
+<body>
+<div class="main">
+  <div class="immg"></div>
+  <form action="php/appointment.php" method="post">
+    <div style="background-color: #0E7490 ;" class="main1">
+
+      <h1 style="margin-top: 5px;" class="textA">Health Appointment Form</h1>
+      
+
+      <!-- Existing fields -->
+       <div style="margin-top: 30px; position: absolute; margin-left:300px ; width: 300px;height: 50px; background: transparent;
+    border: 1px solid black;
+    border-top: none;
+    border-left: none;
+    border-right: none;" class="newid">
+        <input style="color: black; background: transparent; margin-left: -65px; border: none; font-size: 15px;font-style: italic; font-weight: bold; height: 50px;" type="number" class="newid1" placeholder="Id">
+       </div>
+      <div class="name">
+        <input  type="text" class="text2" placeholder="Name" name="patientName" required>
+      </div>
+      <div class="num">
+        <input type="number" class="text3" placeholder="Phone" name="phone" required>
+      </div>
+      <div class="email">
+        <input type="email" class="text4" placeholder="E-mail" name="email" required>
+      </div>
+      <div class="date">
+        <input type="date" class="date1" name="date" required>
+      </div>
+      <div class="time">
+        <input style="color: white;" type="time" class="time1" name="time" required>
+      </div>
+
+      <div class="speciality">
+        <select style="color: white; background-color:#0E7490 ;" class="drop" name="speciality" required>
+          <option value="no select">Select Speciality</option>
+          <option value="Heart">Heart</option>
+          <option value="Mental">Mental</option>
+          <option value="Bone">Bone</option>
+        </select>
+      </div>
+
+      <div class="doctors">
+        <select style="color: white; background-color: #0E7490 ;" class="dropdown" name="doctor" required>
+          <option value="no Select">Select Doctor</option>
+          <option value="Doctor Alia">Doctor Alia</option>
+          <option value="Doctor Sidra">Doctor Sidra</option>
+          <option value="Doctor Naila">Doctor Naila</option>
+          <option value="Doctor Nida">Doctor Nida</option>
+          <option value="Doctor Hamza">Doctor Hamza</option>
+          <option value="Doctor Amir">Doctor Amir</option>
+          <option value="Doctor Faiqa">Doctor Faiqa</option>
+          <option value="Doctor Tayyaba">Doctor Tayyaba</option>
+          <option value="Doctor Fatima">Doctor Fatima</option>
+        </select>
+      </div>
+
+      <input type="submit" name="newAppointment" value="Book Appointment" class="btn">
+    </div>
+  </form>
+</div>
+</body>
+</html>
