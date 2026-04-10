@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Create Invoice</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: #f2f2f2;
+      padding: 30px;
+    }
+    .container {
+      max-width: 600px;
+      margin: auto;
+      background: #fff;
+      padding: 25px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 10px rgba(0,0,0,5);
+    }
+    h2 {
+      text-align: center;
+      color: #333;
+    }
+    label {
+      display: block;
+      margin: 12px 0 5px;
+      font-weight: bold;
+    }
+    input {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 12px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background:rgb(4, 4, 24);
+      color: white;
+      padding: 12px;
+      border: none;
+      width: 100%;
+      font-size: 16px;
+      border-radius: 40px;
+      cursor: pointer;
+      width: 300px;
+    }
+    button:hover {
+      background: #0056b3;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h2 style="font-size: 40px;">Patient's Invoice</h2>
+    <form action="php/save_invoice.php" method="POST">
+      <label>Id</label>
+      <input style="border-top: none; border-left: none; border-right: none;" type="text" name="pid" required>
+
+      <label>Patient Name</label>
+      <input style="border-top: none; border-left: none; border-right: none;" type="text" name="patient_name" required>
+
+      <label>Email</label>
+      <input style="border-top: none; border-left: none; border-right: none;" type="email" name="email" required>
+
+      <label>Invoice Number</label>
+      <input style="border-top: none; border-left: none; border-right: none;" type="text" name="invoice_number" required>
+
+      <label>Consultation Fee ($)</label>
+      <input style="border-top: none; border-left: none; border-right: none;" type="number" name="consultation_fee" required>
+
+      <label>Lab Test Fee ($)</label>
+      <input style="border-top: none; border-left: none; border-right: none;" type="number" name="lab_fee" required>
+
+      <label>Medicine Fee ($)</label>
+      <input style="border-top: none; border-left: none; border-right: none;" type="number" name="medicine_fee" required>
+
+      <button type="submit">Generate Invoice</button>
+    </form>
+  </div>
+</body>
+</html>
