@@ -1,0 +1,1008 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main
+{
+
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("img3.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+
+
+
+.navbar
+{
+    width: 100%;
+    height: 75px;
+    margin-top: 0px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+   
+
+}
+.image
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logoimg
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    margin-left: 30px;
+    background-image: url("Pictures/HealthSphere\ \(1\).png");
+    background-size: cover;
+    margin-top: -65px;
+font-size: 150px;    
+}
+.logo
+{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-size: 80px;
+}
+.logo1
+{
+    width: 300px;
+    height: 70px;
+    margin-left: -80px;
+   font-family: Arial, Helvetica, sans-serif;
+   color:white; 
+   margin-top: 40px;  
+   position: absolute;
+}
+.myVideo
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 19px;
+}
+
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li
+{
+ list-style: none;
+ margin-left: 85px;
+ margin-top: 25px;
+ font-size: 15px;
+ 
+}
+ul li a
+{
+    text-decoration: none;
+    color: #334155 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-out;
+}
+ul li a:hover
+{
+  color: #0E7490 ;
+}
+
+.search
+{
+    width: 230px;
+    float: left;
+    margin-left: 870px;
+    position: absolute;
+
+}
+.srch
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border:1px solid #22C55E ;
+    margin-top: 13px;
+    color: white;
+    border-right:none ;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+
+}
+.btn
+{
+    width: 70px;
+    height: 40px;
+    background-color:  #22C55E;
+    border: 2px solid  #22C55E;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 150px;
+    position: absolute;
+
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .image {
+        margin-bottom: 10px;
+        width: 100%; /* Take full width */
+        display: flex;
+        align-items: center;
+    }
+
+    .logoimg {
+        margin-left: 0;
+    }
+
+    .logo-container { /* You might want to wrap logo and logo1 */
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .srch {
+        width: calc(100% - 110px); /* Adjust width for button */
+    }
+}
+
+/* Extra small screens (up to 480px) */
+@media (max-width: 480px) {
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo1 {
+        font-size: 14px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .srch {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+
+.text
+{
+    
+    width: 800px;
+    height: 100px;
+    position: absolute;
+    margin-left: 400px;
+    font-size: 60px;
+    margin-top: 50px;
+    color:#334155;
+
+    
+}
+
+.main3
+{
+    width: 100%;
+    height: 1120px;
+    position: absolute; 
+    background-color: whitesmoke;
+}
+.j
+{
+    width: 300px;
+    height: 400px;
+    background-size: 100px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 230px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 3px 3px gray;
+    border-radius: 5px;
+    transition: 1s;
+    color: rgb(11, 83, 83);
+
+}
+.j:hover
+{
+    transform: translateY(-20px);
+}
+.a4
+{
+    position: absolute;
+    background-image: url("Pictures/Managing\ Medications\ for\ Seniors.jpeg");
+    width: 275px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 12px;
+    color: black;
+}
+.t1
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 220px;
+    color: rgb(11, 83, 83);
+
+}
+.j a
+{
+    text-decoration: none;
+    transition: 1s;
+
+}
+.j a:hover
+{
+    color: green;
+}
+
+.cate
+{
+    position: absolute;
+     color: black;
+     font-weight: lighter;
+     margin-left: -120px;
+     margin-top: 280px;
+     font-size: 17px;
+}
+.tag
+{
+    position: absolute;
+     color: black;
+     font-weight: lighter;
+     margin-left: -120px;
+     margin-top: 310px;
+     font-size: 17px;
+}
+.ii
+{
+width: 20px;
+height: 20px;
+font-size: 20px;
+position: absolute;
+margin-top: 350px;
+background-color: #1DA1F2;
+color: white;
+margin-left: 20px;
+border-radius: 50%;
+padding: 3%;
+
+}
+.ij
+{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 350px;
+    background-color: #1877F2;
+    color: white;
+    margin-left: 70px;
+    border-radius: 50%;
+    padding: 3%;
+    
+}
+.ik
+{
+    width: 20px;
+    height: 20px;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 350px;
+    background-color:  #0077B5;
+    color: white;
+    margin-left: 120px;
+    border-radius: 50%;
+    padding: 3%;
+    
+}
+.b
+{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.329);
+    position: absolute;
+    margin-left: 500px;
+    text-align: center;
+    margin-top: 230px;
+    background-color:white;
+    box-shadow: 3px 3px gray;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+.b:hover
+{
+    transform: translateY(-20px);
+}
+.a5
+{
+    position: absolute;
+    background-image: url("Pictures/IMG-20250105-WA0003.jpg");
+    background-size: 200px;
+    width: 275px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+}
+.t2
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 220px;
+
+}
+.b a
+{
+    text-decoration: none;
+    transition: 1s;
+
+}
+.b a:hover
+{
+    color: green;
+}
+
+.c
+{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.329);
+    position: absolute;
+    margin-left: 850px;
+    text-align: center;
+    margin-top: 230px;
+    background-color:white;
+    box-shadow: 3px 3px gray;
+    border-radius: 5px;
+    transition: 1s;
+}
+.c:hover
+{
+    transform: translateY(-20px);
+}
+.a6
+{
+    position: absolute;
+    background-image: url("Pictures/Thelma\ Gates.jpeg");
+    background-size: cover;
+    width: 275px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+}
+.t3
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 220px;
+}
+.c a
+{
+    text-decoration: none;
+    transition: 1s;
+
+}
+.c a:hover
+{
+    color: green;
+}
+.d
+{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.329);
+    position: absolute;
+    margin-top: 700px;
+    margin-left: 150px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 3px 3px gray;
+    border-radius: 5px;
+    transition: 1s;
+
+}
+.d:hover
+{
+    transform: translateY(-20px);
+}
+.a7
+{
+    position: absolute;
+    background-image: url("Pictures/IMG-20250105-WA0002.jpg");
+    background-size: 250px;
+    width: 275px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+}
+.t4
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 220px;
+}
+.d a
+{
+    text-decoration: none;
+    transition: 1s;
+
+}
+.d a:hover
+{
+    color: green;
+}
+.e
+{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.329);
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 700px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 3px 3px gray;
+    border-radius: 5px;
+    transition: 1s;
+    
+}
+.e:hover
+{
+    transform: translateY(-20px);
+}
+.a8
+{
+    position: absolute;
+    background-image: url("Pictures/Community\ Health\ Workers.jpeg");
+    background-size: 250px;
+    width: 275px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+}
+.t5
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 220px;
+}
+.e a
+{
+    text-decoration: none;
+    transition: 1s;
+
+}
+.e a:hover
+{
+    color: green;
+}
+.f
+{
+    width: 300px;
+    height: 400px;
+    background-color: rgba(128, 128, 128, 0.329);
+    position: absolute;
+    margin-left: 850px;
+    margin-top: 700px;
+    text-align: center;
+    background-color:white;
+    box-shadow: 3px 3px gray;
+    border-radius: 5px;
+    transition: 1s;
+
+
+}
+.f:hover
+{
+    transform: translateY(-20px);
+}
+.a9
+{
+    position: absolute;
+    background-image: url("Pictures/Diabetes.jpeg");
+    background-size: 250px;
+    width: 275px;
+    height: 200px;
+    margin-top: 10px;
+    margin-left: 12px;
+
+}
+.t6
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-top: 220px;
+}
+.f a
+{
+    text-decoration: none;
+    transition: 1s;
+
+}
+.f a:hover
+{
+    color: green;
+}
+/* Tablets and below (up to 992px) */
+@media screen and (max-width: 992px) {
+    .text {
+        width: 100%;
+        margin-left: 0;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .main3 {
+        height: auto;
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    .j, .b, .c, .d, .e, .f {
+        position: relative;
+        width: 80%;
+        margin: 20px auto;
+        float: none;
+    }
+
+    .ii, .ij, .ik {
+        position: relative;
+        margin: 10px;
+        display: flex;
+
+    }
+
+    .cate, .tag {
+        position: relative;
+        margin-left: 0;
+        text-align: center;
+    }
+
+    .a4, .a5, .a6, .a7, .a8, .a9 {
+        position: relative;
+        width: 90%;
+        margin: 10px auto;
+    }
+
+    .t1, .t2, .t3, .t4, .t5, .t6 {
+        position: relative;
+        margin-top: 10px;
+    }
+}
+
+/* Mobile devices (up to 768px) */
+@media screen and (max-width: 768px) {
+    .text {
+        font-size: 24px;
+    }
+
+    .j, .b, .c, .d, .e, .f {
+        width: 90%;
+        height: auto;
+
+    }
+
+    .a4, .a5, .a6, .a7, .a8, .a9 {
+        height: 180px;
+        background-size: cover;
+
+    }
+
+    .ii, .ij, .ik {
+        font-size: 16px;
+        margin: 5px;
+        margin-left: 50px;
+        display: flex;
+    }
+
+    .cate, .tag {
+        font-size: 15px;
+        display: block;
+        margin-top: 10px;
+        margin-left:-320px ;
+
+    }
+}
+
+.main6
+{
+
+    width: 100%;
+    height: 45vh;
+background-color: #0E7490;
+    text-align: center;
+    position: absolute;
+    margin-top: 1120px;
+}
+.main7
+{
+    width: 200px;
+    height: 45vh;
+    margin-left: 200px;
+    position: absolute;
+}
+.doctor
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 30px;
+    color: white;
+
+}
+.doctor a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 18px;
+
+}
+.explore
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 70px;
+    margin-left: 10px;
+    color: white;
+}
+.explore a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.site
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 115px;
+    font-size: 20px;
+    margin-left: 2px;
+    color: white;
+}
+.site a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.contact
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 160px;
+    font-size: 20px;
+    color: white;
+    margin-left: -10px;
+
+
+}
+.contact a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.locations
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 210px;
+    font-size: 20px;
+    color: white;
+    margin-left: -16px;
+
+}
+.locations a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.main8
+{
+    width: 200px;
+    height: 45vh;
+    margin-left: 550px;
+    position: absolute;
+}
+.medicals
+{
+    width: 300px;
+    height: 20px;
+    position: absolute;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+    margin-left: -30px;
+
+
+}
+.medicals a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.clinical
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 70px;
+    font-size: 20px;
+    color: white;
+    margin-left: -22px;
+
+}
+.clinical a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.refer
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 115px;
+    font-size: 20px;
+    color: white;
+    margin-left: -12px;
+
+}
+.refer a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.research
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 160px;
+    font-size: 20px;
+    color: white;
+    margin-left: -20px;
+
+
+}
+.research a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.labortries
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 210px;
+    font-size: 20px;
+    color: white;
+    margin-left: -20px;
+
+}
+.labortries a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.main9
+{
+    width: 200px;
+    height: 45vh;
+    margin-left: 900px;
+    position: absolute;
+}
+.appoin
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 30px;
+    font-size: 20px;
+    color: white;
+
+}
+.appoin a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.service
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 70px;
+    font-size: 20px;
+    color: white;
+    margin-left: 20px;
+
+}
+.service a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.facebook
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 115px;
+    font-size: 20px;
+    color: white;
+    margin-left: -17px;
+
+}
+.facebook a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.twitter
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 160px;
+    font-size: 20px;
+    color: white;
+    margin-left: -33px;
+
+
+}
+.twitter a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+.instagram
+{
+    width: 200px;
+    height: 20px;
+    position: absolute;
+    margin-top: 210px;
+    font-size: 20px;
+    color: white;
+    margin-left: -18px;
+
+}
+.instagram a
+{
+    text-decoration: none;
+    color: white;
+    font-size:18px;
+
+}
+@media screen and (max-width: 768px) {
+  .main6 {
+    height: auto;
+    padding: 20px 0;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10px;
+  }
+
+  .main7,
+  .main8,
+  .main9 {
+    position: static;
+    width: 90%;
+    height: auto;
+    margin: 20px 0;
+  }
+
+  .main7 div,
+  .main8 div,
+  .main9 div {
+    position: static;
+    margin: 10px 0;
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .main7 a,
+  .main8 a,
+  .main9 a {
+    font-size: 16px;
+  }
+}

@@ -1,0 +1,617 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main
+{
+
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("img3.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+
+.navbar
+{
+    width: 100%;
+    height: 75px;
+    margin-top: 0px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+   
+
+}
+.image
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logoimg
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    margin-left: 30px;
+    background-image: url("Pictures/HealthSphere\ \(1\).png");
+    background-size: cover;
+    margin-top: -65px;
+font-size: 150px;    
+}
+.logo
+{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-size: 80px;
+}
+.logo1
+{
+    width: 300px;
+    height: 70px;
+    margin-left: -80px;
+   font-family: Arial, Helvetica, sans-serif;
+   color:white; 
+   margin-top: 40px;  
+   position: absolute;
+}
+.myVideo
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 19px;
+}
+
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li
+{
+ list-style: none;
+ margin-left: 85px;
+ margin-top: 25px;
+ font-size: 15px;
+ 
+}
+ul li a
+{
+    text-decoration: none;
+    color: #334155 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-out;
+}
+ul li a:hover
+{
+  color: #0E7490 ;
+}
+
+.search
+{
+    width: 230px;
+    float: left;
+    margin-left: 870px;
+    position: absolute;
+
+}
+.srch
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border:1px solid #22C55E ;
+    margin-top: 13px;
+    color: white;
+    border-right:none ;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+
+}
+.btn
+{
+    width: 70px;
+    height: 40px;
+    background-color:  #22C55E;
+    border: 2px solid  #22C55E;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 150px;
+    position: absolute;
+
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .image {
+        margin-bottom: 10px;
+        width: 100%; /* Take full width */
+        display: flex;
+        align-items: center;
+    }
+
+    .logoimg {
+        margin-left: 0;
+    }
+
+    .logo-container { /* You might want to wrap logo and logo1 */
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .srch {
+        width: calc(100% - 110px); /* Adjust width for button */
+    }
+}
+
+/* Extra small screens (up to 480px) */
+@media (max-width: 480px) 
+{
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo1 {
+        font-size: 14px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .srch {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+
+.main1
+{
+    position: relative;
+   width: 100%;
+   height: 109vh; 
+   margin-top: 20px;
+   font-size: 20px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+   background-color: whitesmoke;
+background-size: cover;
+}
+.diphtheria
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 30px;
+}
+.diphtheria a
+{
+  text-decoration: none;
+
+}
+.j
+{
+    width: 200px;
+    height: 30px;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    padding: 3%;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.diphtheria1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Diphtheria.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.dengue
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+    margin-top: 30px;
+
+    
+}
+.dengue a
+{
+    text-decoration: none;
+    
+}
+.b
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.dengue1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Dengue\ Fever.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.dysentry
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 30px;
+
+}
+.dysentry a
+{
+  text-decoration: none;
+  
+}
+.c
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.dysentry1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Dysentry.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.down
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 260px;
+
+}
+.down a
+{
+  text-decoration: none;
+  
+}
+.d
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.down1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Down\ Syndrome.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.diamond
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+
+    margin-top: 260px;
+
+}
+.diamond a
+{
+  text-decoration: none;
+  
+}
+.e
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.diamond1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Diamond-Blackfan\ Anemia.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.diffuse
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 260px;
+
+}
+.diffuse a
+{
+  text-decoration: none;
+  
+}
+.f
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.diffuse1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Diffuse\ Large\ B-cell\ Lymphoma.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.duodenal
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+
+    margin-top: 490px;
+
+}
+.duodenal a
+{
+  text-decoration: none;
+  
+}
+.g
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.duodenal1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Duodenal\ Cancer.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.dementia
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+
+    margin-top: 490px;
+
+}
+.dementia a
+{
+  text-decoration: none;
+  
+}
+.dementia1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Dementia.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.dysgraphia
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 490px;
+
+}
+.dysgraphia a
+{
+  text-decoration: none;
+  
+}
+
+.dysgraphia1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Dysgraphia.png");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.diphtheria, .dengue, .dysentry, .down, .diamond, .diffuse, .duodenal, .dementia, .dysgraphia
+{
+     background-color: white;
+   border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+}
+.diphtheria1, .dengue1, .dysentry1, .down1, .diamond1, .diffuse1, .duodenal1, .dementia1, .dysgraphia1 
+{
+     position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+}
+.j, .b, .c, .d, .e, .f, .g, .h, .i
+{
+     width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+  .diphtheria:hover, 
+  .dengue:hover, 
+  .dysentry:hover, 
+  .diamond:hover,
+  .diffuse:hover, 
+  .duodenal:hover, 
+  .dementia:hover, 
+  .dysgraphia:hover, 
+  .down:hover
+  {
+     transform: scale(1.1);
+    background: rgb(207, 203, 203);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+  }
+@media (max-width: 768px) {
+    .diphtheria, .dengue, .dysentry, .down, .diamond, .diffuse, .duodenal, .dementia, .dysgraphia {
+        width: 100%;
+        margin: 10px 0;
+        position: static;
+        margin-top: 50px;
+    }
+
+    .diphtheria1, .dengue1, .dysentry1, .down1, .diamond1, .diffuse1, .duodenal1, .dementia1, .dysgraphia1 {
+         width: 40%;
+        height: 130px;
+        margin: 10px auto;
+        position: absolute;
+        
+    }
+
+    .j, .b, .c, .d, .e, .f, .g, .h, .i {
+        position: absolute;
+        margin: 5px auto;
+        width: 40%;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 150px;
+    }
+    .main1 {
+    height: auto;
+    background-position: center;
+  }
+}

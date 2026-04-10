@@ -1,0 +1,413 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.main
+{
+
+    width: 100%;
+    height: 169vh;
+    text-align: center;
+    position: relative;
+    background-color: white;
+
+}
+.main1
+{
+
+    width: 800px;
+    height: 159vh;
+    background-color: #0E7490 ;
+    text-align: center;
+    position: absolute;
+    margin-left: 200px;
+    border-radius: 20px;
+    margin-top: 30px;
+}
+.img
+{
+    width: 170px;
+    height: 200px;
+    background-image: url("pictures/download.jpeg");
+    position: absolute;
+    margin: 50px;
+    border-radius: 50%;
+    z-index: 1;
+
+}
+.text
+{
+    width: 400px;
+    height: 130px;
+    background-color: #E0F2FE ;
+    position: absolute;
+    margin-left: 160px;
+    margin-top: 80px;
+    color: #334155 ;
+    font-size: 50px;
+}
+.text1
+{
+    width: 350px;
+    height: 200px;
+    position: absolute;
+    color: white;
+    margin-left: 210px;
+    margin-top: 230px;
+}
+.doctor
+{
+    position: absolute;
+    margin-top: 60px;
+    margin-left: -20px;
+}
+.doctor1
+{
+    width: 228px;
+    height: 50px; 
+    position: absolute;
+    margin-left: 50px;
+    margin-top: 260px;
+        border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+
+}
+.specialist1
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 280px;
+    margin-top: 260px;
+    background-color: #E0F2FE;
+    color: #334155;
+        border: 2px solid black;  
+   
+
+
+}
+.time1
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 530px;
+    margin-top: 260px;
+        border: 2px solid black; 
+    background-color: #E0F2FE;
+    color: #334155;
+
+
+}
+.p1
+{
+    position: absolute;
+    margin-left: 30px;
+    margin-top: 15px;
+    font-size: 20px;
+}
+.doctor2
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black;
+    margin-left: 50px;
+    margin-top: 320px;
+        border: 2px solid black; 
+    background-color: white;
+    
+}
+.specialist2
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+    margin-left: 280px;
+    margin-top: 320px;
+        border: 2px solid black; 
+    background-color: white;
+}
+.time2
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+    margin-left: 530px;
+    margin-top:320px;
+        border: 2px solid black;  
+    background-color: white;
+}
+.doctor3
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 380px;
+        border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+    
+}
+.specialist3
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 280px;
+    margin-top: 380px;
+        border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+}
+.time3
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 530px;
+    margin-top:380px;
+        border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+}
+.doctor4
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black;
+    margin-left: 50px;
+    margin-top: 440px;
+        border: 2px solid black;  
+    background-color: white;
+    
+}
+.specialist4
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+    margin-left: 280px;
+    margin-top: 440px;
+        border: 2px solid black;  
+    background-color: white;
+}
+.time4
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    margin-left: 530px;
+    margin-top: 440px;
+    color: black; 
+        border: 2px solid black;  
+    background-color: white;
+}
+.doctor5
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 500px;
+        border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+    
+}
+.specialist5
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 280px;
+    margin-top: 500px;
+       border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+}
+.time5
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 530px;
+    margin-top: 500px;
+        border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+}
+.doctor6
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+        border: 2px solid black;   
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 560px;
+    
+}
+.specialist6
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+        border: 2px solid black;  
+    background-color: white;
+    margin-left: 280px;
+    margin-top: 560px;
+}
+.time6
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+        border: 2px solid black; 
+    background-color: white;
+    margin-left: 530px;
+    margin-top:560px;
+}
+.doctor7
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top: 620px;
+        border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+    
+}
+.specialist7
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 280px;
+    margin-top: 620px;
+       border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+}
+.time7
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 530px;
+    margin-top:620px;
+        border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+}
+.doctor8
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+        border: 2px solid black; 
+    background-color: white;
+    margin-left: 50px;
+    margin-top: 680px;
+    
+}
+.specialist8
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+        border: 2px solid black;  
+    background-color: white;
+    margin-left: 280px;
+    margin-top: 680px;
+}
+.time8
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: black; 
+    border: 2px solid black;  
+    background-color: white; 
+    margin-left: 530px;
+    margin-top: 680px;
+}
+.doctor9
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white;
+    margin-left: 50px;
+    margin-top:740px;
+    border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+    
+}
+.specialist9
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 280px;
+    margin-top: 740px;
+    border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+}
+.time9
+{
+    width: 250px;
+    height: 50px; 
+    position: absolute;
+    color: white; 
+    margin-left: 530px;
+    margin-top:740px;
+    border: 2px solid black; 
+    color: #334155;
+    background-color: #E0F2FE;
+}
+.final
+{
+    width: 730px;
+    height: 50px;
+    position: absolute;
+    margin-top:870px;
+    margin-left: 30px;
+    color: white;
+    border: 1px solid white;  
+    background-color: #22C55E ;
+    border-radius: 10px;
+    padding: 1%;
+
+
+}

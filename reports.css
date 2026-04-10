@@ -6,7 +6,7 @@
 }
 
 body {
-  background: linear-gradient(to right, #22C55E, #E0F2FE);
+  background: linear-gradient(to right, #0E7490, #E0F2FE);
   height: 100vh;
   display: flex;
   justify-content: center;
@@ -17,7 +17,7 @@ body {
 .card {
   background: white;
   padding: 30px;
-  width: 350px;
+  width: 400px;
   border-radius: 15px;
   box-shadow: 0 10px 25px rgba(0,0,0,0.2);
 }
@@ -46,6 +46,20 @@ input:focus {
   outline: none;
 }
 
+/* File */
+.file-label {
+  background: #E0F2FE;
+  padding: 12px;
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 12px;
+  cursor: pointer;
+}
+
+.file-label input {
+  display: none;
+}
+
 /* Button */
 button {
   padding: 12px;
@@ -59,12 +73,4 @@ button {
 
 button:hover {
   background: #22C55E;
-}
-
-/* Note */
-.note {
-  font-size: 13px;
-  color: #555;
-  margin-top: 10px;
-  text-align: center;
 }

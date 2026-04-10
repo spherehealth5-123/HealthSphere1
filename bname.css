@@ -1,0 +1,705 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main
+{
+
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("img3.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+.navbar
+{
+    width: 100%;
+    height: 75px;
+    margin-top: 0px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+   
+
+}
+.image
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logoimg
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    margin-left: 30px;
+    background-image: url("Pictures/HealthSphere\ \(1\).png");
+    background-size: cover;
+    margin-top: -65px;
+font-size: 150px;    
+}
+.logo
+{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-size: 80px;
+}
+.logo1
+{
+    width: 300px;
+    height: 70px;
+    margin-left: -80px;
+   font-family: Arial, Helvetica, sans-serif;
+   color:white; 
+   margin-top: 40px;  
+   position: absolute;
+}
+.myVideo
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 19px;
+}
+
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li
+{
+ list-style: none;
+ margin-left: 85px;
+ margin-top: 25px;
+ font-size: 15px;
+ 
+}
+ul li a
+{
+    text-decoration: none;
+    color: #334155 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-out;
+}
+ul li a:hover
+{
+  color: #0E7490 ;
+}
+
+.search
+{
+    width: 230px;
+    float: left;
+    margin-left: 870px;
+    position: absolute;
+
+}
+.srch
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border:1px solid #22C55E ;
+    margin-top: 13px;
+    color: white;
+    border-right:none ;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+
+}
+.btn
+{
+    width: 70px;
+    height: 40px;
+    background-color:  #22C55E;
+    border: 2px solid  #22C55E;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 150px;
+    position: absolute;
+
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .image {
+        margin-bottom: 10px;
+        width: 100%; /* Take full width */
+        display: flex;
+        align-items: center;
+    }
+
+    .logoimg {
+        margin-left: 0;
+    }
+
+    .logo-container { /* You might want to wrap logo and logo1 */
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .srch {
+        width: calc(100% - 110px); /* Adjust width for button */
+    }
+}
+
+/* Extra small screens (up to 480px) */
+@media (max-width: 480px) 
+{
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo1 {
+        font-size: 14px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .srch {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+.main1
+{
+    position: relative;
+   width: 100%;
+   height: 109vh; 
+   margin-top: 20px;
+   font-size: 20px;
+    display: grid;
+     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+   background-color: whitesmoke;
+
+}
+
+.brucellosis
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+}
+.brucellosis a
+{
+  text-decoration: none;
+  
+}
+.j
+{
+     width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: #0E7490;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.brucellosis1
+{
+   position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/bru.PNG");
+    background-size: cover;
+
+}
+.bacterial
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+    margin-top: 30px;
+     background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+    
+}
+.bacterial a
+{
+  text-decoration: none;
+  
+}
+.b
+{
+     width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.bacterial1
+{
+     position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/download\ \(7\).jpeg");
+    background-size: cover;
+}
+.becker
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 30px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+}
+.becker a
+{
+  text-decoration: none;
+  
+}
+.c
+
+    {
+     width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.becker1
+{
+    position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/download\(8\).jpeg");
+    background-size: cover;
+}
+.bloom
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 260px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+}
+.bloom a
+{
+  text-decoration: none;
+  
+}
+.d
+{
+    width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.bloom1
+{
+     position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/bloom.jpeg");
+    background-size: cover;
+   
+}
+
+.brain
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+
+    margin-top: 260px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+}
+.brain a
+{
+  text-decoration: none;
+  
+}
+.e
+{
+    width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.brain1
+{
+     position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/download\ \(10\).jpeg");
+    background-size: cover;
+}
+.breast
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 260px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+}
+.breast a
+{
+  text-decoration: none;
+  
+}
+.f
+{ 
+    width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.breast1
+{
+    position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/download\ \(11\).jpeg");
+    background-size: cover;
+}
+.bells
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 490px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+}
+.bells a
+{
+  text-decoration: none;
+  
+}
+.g
+{
+     width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.bells1
+{
+     position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/download\ \(12\).jpeg");
+    background-size: cover;
+}
+.bipolar
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+    margin-top: 490px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+}
+.bipolar a
+{
+  text-decoration: none;
+  
+}
+.h
+{
+     width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.bipolar1
+{
+     position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/download\(13\).jpeg");
+    background-size: cover;
+}
+.brochiectasis
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 490px;
+    background-color: white;
+    border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+
+}
+.brochiectasis a
+{
+  text-decoration: none;
+  
+}
+.i
+{
+     width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+}
+.brochiectasis1
+{
+    position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+    background-image: url("Pictures/download\ \(14\).jpeg");
+    background-size: cover;
+}
+.brucellosis:hover,
+.bacterial:hover,
+.becker:hover,
+.bloom:hover,
+.brain:hover,
+.breast:hover,
+.bells:hover,
+.bipolar:hover,
+.brochiectasis:hover {
+    transform: scale(1.1);
+    background: rgb(207, 203, 203);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+}
+/* Tablets (max width 1024px) */
+@media only screen and (max-width: 1024px) {
+    .main1 {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        gap: 20px;
+        padding: 20px;
+        height: auto;
+        margin-top: 20px;
+    }
+
+    .brucellosis, .bacterial, .becker, .bloom, .brain, .breast, .bells, .bipolar, .brochiectasis {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .brucellosis1, .bacterial1, .becker1, .bloom1, .brain1, .breast1, .bells1, .bipolar1, .brochiectasis1 {
+        position: relative;
+        width: 90%;
+        height: 150px;
+        margin: 10px auto;
+        background-size: cover;
+    }
+
+    .j, .b, .c, .d, .e, .f, .g, .h, .i {
+        position: relative;
+        width: 90%;
+        height: auto;
+        margin: 10px auto;
+        text-align: center;
+        padding: 10px;
+    }
+}
+
+/* Mobile phones (max width 768px) */
+@media only screen and (max-width: 768px) {
+    .main1 {
+        display: block;
+        padding: 10px;
+        height: auto;
+    }
+
+    .brucellosis, .bacterial, .becker, .bloom, .brain, .breast, .bells, .bipolar, .brochiectasis {
+        position: static;
+        width: 100%;
+        height: auto;
+        margin: 10px 0;
+        margin-top: 20px;
+    }
+
+    .brucellosis1, .bacterial1, .becker1, .bloom1, .brain1, .breast1, .bells1, .bipolar1, .brochiectasis1 {
+        width: 90%;
+        height: 130px;
+        margin: 10px auto;
+        position: relative;
+        background-size: cover;
+    }
+
+   .j, .b, .c, .d, .e, .f, .g, .h, .i {
+        position: absolute;
+        margin: 5px auto;
+        width: 90%;
+        height: auto;
+        padding: 10px;
+        font-size: 16px;
+        margin-top: 0px;
+        z-index: 2;
+    }
+}

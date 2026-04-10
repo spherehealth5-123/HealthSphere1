@@ -1,0 +1,676 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main
+{
+
+    width: 100%;
+    background: linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%),url("img3.jpeg");
+    background-position: center;
+    background-size: cover;
+    height: 10vh;
+    text-align: center;
+    position: relative;
+}
+.navbar
+{
+    width: 100%;
+    height: 75px;
+    margin-top: 0px;
+    background-color: white;
+    position: fixed;
+    z-index: 1;
+   
+
+}
+.image
+{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+.logoimg
+{
+    position: absolute;
+    width: 200px;
+    height: 140px;
+    margin-left: 30px;
+    background-image: url("Pictures/HealthSphere\ \(1\).png");
+    background-size: cover;
+    margin-top: -65px;
+font-size: 150px;    
+}
+.logo
+{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    margin-top: 20px;
+    margin-left: 115px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    background-size: 80px;
+}
+.logo1
+{
+    width: 300px;
+    height: 70px;
+    margin-left: -80px;
+   font-family: Arial, Helvetica, sans-serif;
+   color:white; 
+   margin-top: 40px;  
+   position: absolute;
+}
+.myVideo
+{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 19px;
+}
+
+.menu
+{
+    width: 400px;
+    float: left;
+    height: 70px;
+}
+ul
+{
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+ul li
+{
+ list-style: none;
+ margin-left: 85px;
+ margin-top: 25px;
+ font-size: 15px;
+ 
+}
+ul li a
+{
+    text-decoration: none;
+    color: #334155 ;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-out;
+}
+ul li a:hover
+{
+  color: #0E7490 ;
+}
+
+.search
+{
+    width: 230px;
+    float: left;
+    margin-left: 870px;
+    position: absolute;
+
+}
+.srch
+{
+    font-family: 'Times New Roman', Times, serif;
+    width: 150px;
+    height: 40px;
+    background: transparent;
+    border:1px solid #22C55E ;
+    margin-top: 13px;
+    color: white;
+    border-right:none ;
+    font-size: 16px;
+    padding: 10px;
+    border-radius: 5px;
+    position: absolute;
+
+}
+.btn
+{
+    width: 70px;
+    height: 40px;
+    background-color:  #22C55E;
+    border: 2px solid  #22C55E;
+    margin-top: 13px;
+    color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    margin-left: 150px;
+    position: absolute;
+
+}
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 15px;
+    }
+
+    .image {
+        margin-bottom: 10px;
+        width: 100%; /* Take full width */
+        display: flex;
+        align-items: center;
+    }
+
+    .logoimg {
+        margin-left: 0;
+    }
+
+    .logo-container { /* You might want to wrap logo and logo1 */
+        display: flex;
+        flex-direction: column;
+        margin-left: 10px;
+    }
+
+    .menu {
+        width: 100%;
+    }
+
+    ul {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    ul li {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+    .search {
+        width: 100%;
+        margin-top: 10px;
+    }
+
+    .srch {
+        width: calc(100% - 110px); /* Adjust width for button */
+    }
+}
+
+/* Extra small screens (up to 480px) */
+@media (max-width: 480px) 
+{
+    .logo {
+        font-size: 20px;
+    }
+
+    .logo1 {
+        font-size: 14px;
+    }
+
+    ul li a {
+        font-size: 14px;
+    }
+
+    .srch {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    .btn {
+        padding: 6px 10px;
+        font-size: 12px;
+    }
+}
+.main1
+{
+     position: relative;
+   width: 100%;
+   height: 109vh; 
+   margin-top: 20px;
+   font-size: 15px;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+    padding: 40px;
+   background-color: whitesmoke;
+    background-size: cover;
+}
+.kawasaki
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 30px;
+    border: 2px solid black;
+}
+.kawasaki a
+{
+  text-decoration: none;
+
+}
+.j
+{
+    width: 200px;
+    height: 30px;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+    padding: 3%;
+}
+.kawasaki1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Kawasaki\ Disease.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.kaposi
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+    margin-top: 30px;
+    border: 2px solid black;
+
+    
+}
+.kaposi a
+{
+    text-decoration: none;
+    
+}
+.b
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.kaposi1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Kaposi\'s\ Sarcoma.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.kallmann
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 30px;
+    border: 2px solid black;
+
+}
+.kallmann a
+{
+  text-decoration: none;
+  
+}
+.c
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.kallmann1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Kallmann\ Syndrome.png");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.kabuki
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+    margin-top: 260px;
+    border: 2px solid black;
+
+}
+.kabuki a
+{
+  text-decoration: none;
+  
+}
+.d
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.kabuki1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Kabuki\ Syndrome.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.krabbe
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+
+    margin-top: 260px;
+    border: 2px solid black;
+
+}
+.krabbe a
+{
+  text-decoration: none;
+  
+}
+.e
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.krabbe1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Krabbe\ Disease.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.kidney
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 260px;
+    border: 2px solid black;
+
+}
+.kidney a
+{
+  text-decoration: none;
+  
+}
+.f
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.kidney1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Kidney\ Cancer.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.korsakoff
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 120px;
+
+    margin-top: 490px;
+    border: 2px solid black;
+
+}
+.korsakoff a
+{
+  text-decoration: none;
+  
+}
+.g
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.korsakoff1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Korsakoff\'s\ Syndrome.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.kleine
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 510px;
+
+    margin-top: 490px;
+    border: 2px solid black;
+
+}
+.kleine a
+{
+  text-decoration: none;
+  
+}
+.h
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.kleine1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Kleine-Levin\ Syndrome.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.keratitis
+{
+    position: absolute;
+    width: 300px;
+    height: 200px;
+    margin-left: 890px;
+    margin-top: 490px;
+    border: 2px solid black;
+
+}
+.keratitis a
+{
+  text-decoration: none;
+  
+}
+.i
+{
+    width: 200px;
+    height: 20px;
+    padding: 5%;
+    margin-top: 140px;
+    margin-left: 35px;
+    background-color: blue;
+    color: white;
+    position: absolute;
+    text-align: center;
+}
+.keratitis1
+{
+    position: absolute;
+    width: 280px;
+    height: 150px;
+    background-image: url("Pictures/Keratitis.jpeg");
+    background-size: cover;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.kawasaki, .kaposi, .kallmann, .kabuki, .krabbe, .kidney, .korsakoff, .kleine, .keratitis
+  {
+    background-color: white;
+   border-radius: 5px;
+    font-weight: 20px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.199);
+     transition: 1s;
+     border: none;
+  }
+  .kawasaki1, .kaposi1, .kallmann1, .kabuki1, .krabbe1, .kidney1, .korsakoff1, .kleine1, .keratitis1
+  {
+    position: absolute;
+    width: 230px;
+    height: 140px;
+    background-size: cover;
+    margin-left: 35px;
+    margin-top: 20px;
+  }
+  .j, .b, .c, .d, .e, .f, .g, .h, .i
+   {
+     width: 187px;
+    height: 30px;
+    margin-top: 150px;
+    background-color: teal;
+    color: white;
+    margin-left: 50px;
+    position: absolute;
+    text-align: center;
+    padding: 2%;
+   }
+  .kawasaki:hover, 
+  .kaposi:hover, 
+  .kallmann:hover, 
+  .kabuki:hover,
+  .krabbe:hover, 
+  .kidney:hover, 
+  .korsakoff:hover, 
+  .kleine:hover, 
+  .keratitis:hover
+  {
+     transform: scale(1.1);
+    background: rgb(207, 203, 203);
+    box-shadow: 2px 2px 2px #000;
+    z-index: 2;
+  }
+/* Tablet View - Up to 1024px */
+@media screen and (max-width: 1024px) {
+  .main1 {
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    padding: 20px;
+  }
+
+.kawasaki, .kaposi, .kallmann, .kabuki, .krabbe, .kidney, .korsakoff, .kleine, .keratitis {
+    position: relative;
+    width: 100%;
+    height: auto;
+    margin: 10px auto;
+  }
+
+  .kawasaki1, .kaposi1, .kallmann1, .kabuki1, .krabbe1, .kidney1, .korsakoff1, .kleine1, .keratitis1{
+    position: relative;
+    width: 100%;
+    height: 160px;
+    margin: 0 auto;
+  }
+
+  .j, .b, .c, .d, .e, .f, .g, .h, .i {
+    position: relative;
+    margin: 10px auto;
+    width: 90%;
+    font-size: 1rem;
+  }
+}
+
+/* Mobile View - Up to 768px */
+@media screen and (max-width: 768px) {
+  .main1 {
+    grid-template-columns: 1fr;
+    padding: 10px;
+  }
+
+  .kawasaki, .kaposi, .kallmann, .kabuki, .krabbe, .kidney, .korsakoff, .kleine, .keratitis {
+     width: 50%;
+    margin-left: 2.5%;
+    margin-top: 20px;
+    position: relative;
+  }
+
+   .kawasaki1, .kaposi1, .kallmann1, .kabuki1, .krabbe1, .kidney1, .korsakoff1, .kleine1, .keratitis1{
+    width: 100%;
+    height: 150px;
+    background-size: cover;
+    margin: 0 auto;
+    position: relative;
+  }
+
+  .j, .b, .c, .d, .e, .f, .g, .h, .i {
+      width: 90%;
+    padding: 10px;
+    font-size: 0.9rem;
+    margin: 10px auto;
+    position: absolute;
+  }
+}

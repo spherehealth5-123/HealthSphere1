@@ -1,0 +1,203 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+.main
+{
+
+    width: 100%;
+    background:blue;
+    background-position: center;
+    background-size: cover;
+    height: 39vh;
+    position: relative;
+}
+.text
+{
+    margin-left: 100px;
+    margin-top: 60px ;
+    color: white;
+    font-size: 40px;
+    position: absolute;
+}
+.text1
+{
+    margin-left: 100px;
+    color: white;
+    margin-top: 140px ;
+    position: absolute;
+    font-size: 20px;
+    
+
+
+
+}
+.text1 a
+{
+    text-decoration: none;
+    color: wheat;
+}
+.aids
+{
+    position: absolute;
+    margin-top: 300px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.text2
+{
+    width: 200px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 20px; 
+}
+.img
+{
+    width: 300px;
+    height: 160px;
+    position: absolute;
+    background-image: url("Acute\ lymphoblastic\ Leukemia.jpg");
+    background-size: contain;
+    margin-top: 10px;
+    margin-left: 860px;
+    font-size: 20px;    
+}
+.aids1
+{
+    position: absolute;
+    margin-top: 500px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.text3
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 40px; 
+}
+.text4
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 0px;
+    font-size: 20px;  
+}
+.aids2
+{
+    position: absolute;
+    margin-top: 1150px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.text5
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 40px; 
+}
+.text6
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 0px;
+    font-size: 20px;  
+}
+.aids3
+{
+    position: absolute;
+    margin-top: 1350px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.text7
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 40px; 
+}
+.text8
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 0px;
+    font-size: 20px;  
+}
+.aids4
+{
+    position: absolute;
+    margin-top: 1700px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.text9
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 40px; 
+}
+.text10
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 0px;
+    font-size: 20px;  
+}
+.aids5
+{
+    position: absolute;
+    margin-top: 2150px;
+    margin-left: 60px;
+    font-size: 30px;
+}
+.text11
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 10px;
+    margin-left: 0px;
+    font-size: 40px; 
+}
+.text12
+{
+    width: 600px;
+    position: absolute;
+    margin-top: 80px;
+    margin-left: 0px;
+    font-size: 20px;  
+}
+.btn2
+{
+    width: 250px;
+    height: 60px;
+    background-color:transparent;
+    position: absolute;
+    margin-top: 3500px;
+    margin-left: 200px;
+}
+.btn2 a
+{
+    text-decoration: none;
+    color: black;
+    border: none;
+}
+.btn2:hover
+{
+    border: solid 1px black;
+    background: blue ;
+    transition: 1s;
+}
