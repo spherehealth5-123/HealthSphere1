@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Patient Reviews</title>
+  <link rel="stylesheet" href="reviews.css">
+</head>
+<body>
+  <div class="container">
+    <h1 class="title">What Our Patients Say</h1>
+    <p class="subtitle">Real experiences from patients who trusted our hospital.</p>
+
+    <div class="reviews">
+      <!-- Review 1 -->
+      <div class="review-card">
+        <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Sarah Ahmed" class="review-img">
+        <div class="review-content">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            "The doctors and staff were very professional and caring. 
+            The treatment was smooth and I felt safe throughout my stay."
+          </p>
+          <p class="reviewer">- Sarah Ahmed</p>
+        </div>
+      </div>
+
+      <!-- Review 2 -->
+      <div class="review-card">
+        <img src="https://randomuser.me/api/portraits/men/36.jpg" alt="Ali Khan" class="review-img">
+        <div class="review-content">
+          <div class="stars">★★★★☆</div>
+          <p class="review-text">
+            "Great experience! The nurses were very attentive and the facilities were clean. 
+            Would definitely recommend this hospital to family and friends."
+          </p>
+          <p class="reviewer">- Ali Khan</p>
+        </div>
+      </div>
+
+      <!-- Review 3 -->
+      <div class="review-card">
+        <img src="https://randomuser.me/api/portraits/women/55.jpg" alt="Fatima Noor" class="review-img">
+        <div class="review-content">
+          <div class="stars">★★★★★</div>
+          <p class="review-text">
+            "Emergency services were quick and efficient. 
+            The staff saved precious time and handled everything with care."
+          </p>
+          <p class="reviewer">- Fatima Noor</p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Review Submission Form -->
+    <div class="review-form">
+      <h2>Share Your Experience</h2>
+      <form action="php/reviews.php" method="post">
+        <input type="number" name="id" placeholder="Id" required>
+        <input type="text" name="name" placeholder="Your Name" required>
+        <input type="email" name="email" placeholder="Your Email" required>
+        
+        <select name="rating" required>
+          <option value="">Select Rating</option>
+          <option value="5">★★★★★ - Excellent</option>
+          <option value="4">★★★★☆ - Good</option>
+          <option value="3">★★★☆☆ - Average</option>
+          <option value="2">★★☆☆☆ - Poor</option>
+          <option value="1">★☆☆☆☆ - Very Bad</option>
+        </select>
+        
+        <textarea name="review" rows="5" placeholder="Write your review here..." required></textarea>
+        <button type="submit">Submit Review</button>
+      </form>
+    </div>
+  </div>
+</body>
+</html>

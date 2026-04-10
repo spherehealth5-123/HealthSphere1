@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <title>Ministero dell'Interno Reconstruction</title>
+    <style>
+        /* 1. The @import MUST be at the very top of your CSS */
+        @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;700&family=Great+Vibes&display=swap');
+
+        :root {
+            --bg-color: #ffffff;
+            --text-color: #000000;
+        }
+
+        body {
+            background-color: #d1d1d1;
+            margin: 0;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            /* 2. Applying the official government body font */
+            font-family: 'Titillium Web', sans-serif;
+            color: var(--text-color);
+            line-height: 1.4;
+        }
+
+        .paper {
+            background: var(--bg-color);
+            width: 800px;
+            min-height: 1000px;
+            padding: 80px 70px;
+            box-shadow: 0 0 15px rgba(0,0,0,0.2);
+            box-sizing: border-box;
+        }
+
+        /* Header Section */
+        .header {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .logo {
+            width: 75px;
+            margin-bottom: 10px;
+        }
+
+        .ministero-text {
+            /* 3. Applying the formal script font for the header */
+            font-family: 'Great Vibes', cursive; 
+            font-size: 54px;
+            margin: 0;
+            padding: 0;
+            font-weight: 400;
+            transform: scaleY(1.1);
+        }
+
+        .dipartimento-text {
+            font-weight: 700;
+            font-size: 14px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: -5px;
+        }
+
+        /* Body Content */
+        .content {
+            font-size: 15px;
+        }
+
+        .recipient {
+            margin-bottom: 25px;
+        }
+
+        .recipient b {
+            font-size: 16px;
+        }
+
+        .paragraph {
+            margin-bottom: 18px;
+        }
+
+        .data-grid {
+            margin-top: 25px;
+        }
+
+        .data-row {
+            display: flex;
+            margin-bottom: 8px;
+        }
+
+        .label {
+            font-weight: 700;
+            width: 280px;
+            flex-shrink: 0;
+        }
+
+        .uppercase {
+            text-transform: uppercase;
+        }
+
+        .dati-header {
+            font-weight: 700;
+            text-decoration: underline;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+
+        .footer {
+            margin-top: 100px;
+        }
+
+        .disclaimer {
+            font-weight: 700;
+            font-size: 15px;
+            margin-bottom: 5px;
+        }
+
+        @media print {
+            body { background: white; padding: 0; }
+            .paper { box-shadow: none; width: 100%; padding: 40px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="paper">
+    <div class="header">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/00/Emblem_of_Italy.svg/1200px-Emblem_of_Italy.svg.png" class="logo" alt="Emblem">
+        <h1 class="ministero-text">Ministero dell' Interno</h1>
+        <div class="dipartimento-text">Dipartimento per le liberta' civili e l'immigrazione</div>
+    </div>
+
+    <div class="content">
+        <div class="recipient">Gentile <b class="uppercase">Javed Tariq</b></div>
+
+        <div class="paragraph">La informiamo che il modulo informatico è stato ricevuto correttamente.</div>
+        
+        <div class="paragraph">Per le attività inerenti la pratica potrà utilizzare i seguenti dati:</div>
+
+        <div class="data-grid">
+            <div class="data-row">
+                <span class="label">Identificativo domanda:</span>
+                <span class="value">BO5607336187</span>
+            </div>
+            <div class="data-row">
+                <span class="label">Codice verifica:</span>
+                <span class="value">e76cfe532eb34ed8db98692c754857f</span>
+            </div>
+        </div>
+
+        <div class="paragraph" style="margin-top: 35px;">
+            I dati inerenti la domada da Lei inoltrata sono i seguenti:
+        </div>
+
+        <div class="dati-header">DATI</div>
+
+        <div class="data-grid">
+            <div class="data-row">
+                <span class="label">Cognome e Nome del richiedente:</span>
+                <span class="value uppercase">Giglio Gennaro</span>
+            </div>
+            <div class="data-row">
+                <span class="label">Cognome e Nome lavoratore:</span>
+                <span class="value">Usman Zafar</span>
+            </div>
+            <div class="data-row">
+                <span class="label">Data e ora di ricezione domanda:</span>
+                <span class="value">16-02-2025 09:01:32.501</span>
+            </div>
+            <div class="data-row">
+                <span class="label">Tipo domanda presentata:</span>
+                <span class="value">
+                    Richiesta nominativa di nulla osta al lavoro subordinato per settori di autotrasporto, edilizia e turistico/alberghiero - Modulo B2020
+                </span>
+            </div>
+        </div>
+
+        <div class="footer">
+            <div class="disclaimer">La presente ricevuta non abilita all'instaurazione di un rapporto di lavoro.</div>
+            <div class="disclaimer">Non costituisce documento per il regolare soggiorno dello straniero sul territorio italiano</div>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>

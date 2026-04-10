@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Admin - Upload Report</title>
+  <link rel="stylesheet" href="css/reports.css">
+</head>
+<body>
+
+<div class="container">
+  <div class="card">
+    <h1>Upload Patient Report</h1>
+
+    <form action="php/uploadReport.php" method="POST" enctype="multipart/form-data">
+  <input type="text" name="report_id" placeholder="Report ID" required>
+  <input type="text" name="patient_name" placeholder="Patient Name" required>
+  <input type="email" name="patient_email" placeholder="Patient Email" required>
+  <input type="text" name="sample_type" placeholder="Sample Type" required>
+
+  <label class="file-label">
+    Upload Report File
+    <input type="file" name="report_file" required>
+  </label>
+
+  <button type="submit" name="submit">Upload Report</button>
+</form>
+  </div>
+</div>
+
+</body>
+</html>
